@@ -21,25 +21,6 @@ yapıyoruz.
 sonrasında ;
 
 ```config/app.php``` dosyasına aşağıda bulunan satırları ekliyoruz.
-```php
-return [
-    // ...
-
-    'providers' => [
-        // ...
-
-        farukcam\Kuveytturk\KuveytturkServiceProvider::class
-    ],
-
-    // ...
-
-    'aliases' => [
-        // ...
-
-        'Kuveytturk'    => farukcam\Kuveytturk\Facades\Kuveytturk::class
-    ],
-);
-```
 # Ayarlar
 
 
