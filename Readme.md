@@ -45,7 +45,7 @@ return [
 
 
 ```code
-php artisan vendor:publish
+php artisan vendor:publish --provider="farukcam\Kuveytturk\KuveytturkServiceProvider"
 ```
 komutunu kullanarak ``` config/kuveytturk.php``` dosyasını yayınlıyoruz.
 

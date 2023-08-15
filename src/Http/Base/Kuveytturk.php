@@ -78,7 +78,7 @@ class Kuveytturk extends BaseClass {
     {
         if (is_null($property))
         {
-            throw new Exception("" . $key . " alanı boş olamaz gerekli.", 212);
+            throw new Exception("" . $key . " field cannot be empty required.", 212);
 
         }
     }

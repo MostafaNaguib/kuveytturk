@@ -1,18 +1,28 @@
 {
-    "name": "farukcam/kuveytturk",
-    "description": "Laravel Kuveyt Türk Sanal Pos",
-    "homepage": "https://github.com/farukcam/kuveytturk",
-    "require": {
-        "illuminate/support": "*"
-    },
-    "autoload": {
-      "psr-4": {
-        "farukcam\\Kuveytturk\\": "src/"
-      }
-    },
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "require": {
-      "illuminate/support": "*"
+  "name": "farukcam/kuveytturk",
+  "description": "Laravel Kuveyt Türk Sanal Pos",
+  "homepage": "https://github.com/farukcam/kuveytturk",
+  "require": {
+    "illuminate/support": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "farukcam\\Kuveytturk\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "farukcam\\Kuveytturk\\KuveytturkServiceProvider"
+      ],
+      "aliases": {
+        "Kuveytturk": "farukcam\\Kuveytturk\\Facades\\Kuveytturk"
+      }
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "illuminate/support": "*"
+  }
 }
